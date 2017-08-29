@@ -1,2 +1,2 @@
 # person-website
-The code behind my personal website
+Personal portfolio website written in HTML, CSS, and JS.

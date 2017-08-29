@@ -1,8 +1,8 @@
 /*Created by: Jonathon Cooke-Akaiwa*/
 
 html {
-  background-color: #2b303b;
-  color: #eff1f5;
+  /*background-color: #2b303b;
+  color: #eff1f5;*/
 }
 
 .light {
@@ -56,4 +56,56 @@ img {
     height: 0;
     padding: 0;
     overflow: hidden;
+}
+
+/*-- Programming --*/
+
+/* - Github Repos - */
+
+.repo {
+  position: relative;
+  padding: 0;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 500px;
+  background-color: white;
+  border: 1px solid #eee;
+  text-align: center;
+  font-family: "Lucida Grande","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+
+.repo a {
+  color: white;
+}
+
+.repo a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.repo .repo-name {
+  border-radius: 5px;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  background-color: #3581ba;
+  color: white;
+  overflow: hidden;
+}
+
+.repo .repo-name .h3, h3 {
+  line-height: 150px;
+}
+
+.repo .repo-description {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  height: 125px;
+  overflow: scroll;
+}
+
+.repo .stat-box {
+  padding: 0px 10px 10px 10px;
+  color: #606060;
 }
