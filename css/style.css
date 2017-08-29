@@ -1,0 +1,59 @@
+/*Created by: Jonathon Cooke-Akaiwa*/
+
+html {
+  background-color: #2b303b;
+  color: #eff1f5;
+}
+
+.light {
+  background-color: #eff1f5;
+  color: #2b303b;
+}
+
+/*default link colors*/
+a {
+  color: #bf616a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d08770;
+}
+
+a:visited {
+  color: #b48ead;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+}
+
+img {
+  max-width: 40%;
+  border-radius: 5px;
+  border: 7px solid white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+/*Styles for Sections*/
+
+#resume {
+
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
